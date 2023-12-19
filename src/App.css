@@ -1,38 +1,144 @@
-.App {
+.heading {
+  color: blue;
+  font-family: fantasy;
+  font-size:12px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@media (min-width:500px){
+  .heading {
+    color: blue;
+    font-family:breeserif;
+    font-size: 22px;
+    text-align: center;
+  }
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.Container{
+  border:1px solid gray;
+  width:220px;
+  height: 24px;
+  display:flex;
+  align-items:center;
+  border-radius:4px;
+  margin-right:auto;
+  margin-left:auto;
+  margin-top:10px;
+  margin-bottom:10px;
+  justify-content:space-between;
+}
+@media (min-width:500px){
+  .Container{
+    border:1px solid gray;
+    width:420px;
+    height: 24px;
+    display:flex;
+    align-items:center;
+    border-radius:4px;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:10px;
+    justify-content:space-between;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.TodoHeading{
+  font-family:breeserif;
+  font-size: 10px;
+  text-align: center;
+  margin-left:30px;
+}
+@media (min-width:500px){
+  .TodoHeading{
+    font-family:breeserif;
+    font-style:italic;
+    font-size: 12px;
+    text-align: center;
+    margin-left:30px;
+  }
+}
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.input {
+  height: 20px;
+  width: 220px;
+  margin-left:88px;
+  border: 1px solid lightblue;
+  margin-right: 10px;
+  margin-bottom:10px;
+  padding-left:10px;
+  font-style:italic;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (min-width:500px){
+  .input {
+    height: 24px;
+    width: 420px;
+    
   }
-  to {
-    transform: rotate(360deg);
+} 
+.input1 {
+  height: 24px;
+  width: 420px;
+  margin-left:50px;
+  border: 1px solid lightblue;
+  margin-right: 10px;
+  margin-bottom:10px;
+  
+}
+@media (min-width:500px){
+  .input1 {
+    height: 24px;
+    width: 420px;
+  }  
+}
+.button {
+  background-color: blue;
+  height: 24px;
+  width: 40px;
+  border: none;
+  color: white;
+  font-size: 10px;
+  border-radius: 06px;
+}
+@media (min-width:500px){
+  .button{
+    height: 28px;
+    width: 80px;
+    font-size: 14px;
+  }
+}  
+.button1 {
+  background-color:yellow;
+  height: 20px;
+  width: 50px;
+  border: none;
+  color: black;
+  font-size: 10px;
+  border-radius: 06px;
+}
+.Tharun{
+  color:red;
+  margin-left:6px;
+}
+.InsideContainer{
+  display:flex;
+  align-items:center;
+  margin-right:10px;
+}
+.button2{
+  background-color:orange;
+  height: 25px;
+  width: 40px;
+  border: none;
+  color: white;
+  font-size: 10px;
+  border-radius: 06px;
+}
+@media (min-width:500px){
+  .button2{
+    height: 28px;
+    width: 80px;
+    font-size: 14px;
   }
 }
